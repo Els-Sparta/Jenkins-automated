@@ -9,7 +9,6 @@ Vagrant.configure("2") do |config|
     app.vm.box = "ubuntu/xenial64"
     app.vm.network "private_network", ip: "192.168.10.100"
     app.hostsupdater.aliases = ["development.local"]
-    app.vm.synced_folder "app", "/home/ubuntu/app"
     app.vm.provision "shell", path: "provision.sh", privileged: false
   end
 end
