@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/ubuntu/app":{"guestpath":"/home/ubuntu/app","hostpath":"/Users/tech-a02/coursework/labs/Lab16-DevOpsLab/jenkins-automated-vm/app","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/tech-a02/coursework/labs/Lab16-DevOpsLab/jenkins-automated-vm","disabled":false,"__vagrantfile":true}}}
